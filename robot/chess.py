@@ -23,5 +23,5 @@ def snaker():
   small(-1)
   
  
-
-snaker()
+for i in range (0,4):
+  snaker()
