@@ -8,11 +8,11 @@ def segment(scale, detail):
     move(scale)
   else:
     segment(scale / 3.0, detail - 1)
-    turn(-45)
+    turn(-70)
     segment(scale / 3.0, detail - 1)
-    turn(90)
+    turn(140)
     segment(scale / 3.0, detail - 1)
-    turn(-45)
+    turn(-70)
     segment(scale / 3.0, detail - 1)
     
 
