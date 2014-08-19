@@ -22,7 +22,7 @@ def snaker():
   line()
   small(-1)
   
-def side: 
+def side(): 
   for i in range (0,4):
     snaker()
 
