@@ -27,5 +27,6 @@ def side(dir):
     snaker(dir)
 
 side(1)
+line()
 turn(-1)
 side(-1)
