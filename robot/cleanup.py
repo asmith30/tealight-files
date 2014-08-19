@@ -9,5 +9,5 @@ from tealight.robot import (move,
 # Add your code here
 def line(dir):
 
-x = touch()
-print x
+xvar = touch()
+print xvar
