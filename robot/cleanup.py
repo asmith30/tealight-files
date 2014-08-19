@@ -10,3 +10,7 @@ from tealight.robot import (move,
 
 xvar = touch()
 print xvar
+xvar = left_side()
+print xvar
+xvar = right_side()
+print xvar
