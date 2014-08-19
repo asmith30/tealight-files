@@ -6,8 +6,7 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-# Add your code here
-def line(dir):
+# Add your code here def line(dir):
 
 xvar = touch()
 print xvar
