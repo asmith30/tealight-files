@@ -29,6 +29,8 @@ def go(dir):
 
 
 dir = 1
-go(dir)
+while 1==1:
+  go(dir)
+  dir = dir*-1
 
 
