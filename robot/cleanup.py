@@ -30,5 +30,6 @@ dir = 1
 while 1==1:
   go(dir)
   dir = dir*-1
+  print dir
 
 
