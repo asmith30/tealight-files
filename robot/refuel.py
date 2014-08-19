@@ -7,5 +7,10 @@ from tealight.robot import (move,
                             right_side)
 
 # Add your code here
+while 1==1:
+  if left_side()=="wall":
+    
+  
+  turn
 move()
 
