@@ -6,10 +6,10 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-def line:
+def line():
   move(32)
 # function to do line row line row
-def snaker:
+def snaker():
   line()
   turn(1)
   move(4)
