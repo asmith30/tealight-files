@@ -16,16 +16,16 @@ def small(dir):
   turn(dir)
   
 # function to do line row line row
-def snaker():
+def snaker(dir):
   line()
-  small(1)
+  small(dir)
   line()
-  small(-1)
+  small(dir*-1)
   
-def side(): 
+def side(dir): 
   for i in range (0,4):
-    snaker()
+    snaker(dir)
 
-side()
+side(1)
 turn(-1)
-side()
+side(-1)
