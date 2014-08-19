@@ -24,6 +24,7 @@ def go(dir):
   if dir ==-1:
     while right_side == 'fruit':
       move()
+      
   turner(dir)  
     
 
