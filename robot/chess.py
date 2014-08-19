@@ -7,7 +7,8 @@ from tealight.robot import (move,
                             right_side)
 
 def line():
-  move(32)
+  for i in range (0,32)
+    move()
 # function to do line row line row
 def snaker():
   line()
