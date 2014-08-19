@@ -7,17 +7,21 @@ from tealight.robot import (move,
                             right_side)
 
 def line():
-  for i in range (0,32)
+  for i in range (0,32):
     move()
+def small(dir):
+  turn(dir)
+  for i in range (0,4):
+    move()
+  turn(dir)
+  
 # function to do line row line row
 def snaker():
   line()
-  turn(1)
-  move(4)
-  turn(1)
+  small(1)
   line()
-  turn(-1)
-  move(4)
-  turn(-1)
+  small(-1)
+  
+ 
 
 snaker()
