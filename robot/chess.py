@@ -27,4 +27,5 @@ def side():
     snaker()
 
 side()
+turn(-1)
 side()
