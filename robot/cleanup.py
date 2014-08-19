@@ -8,7 +8,6 @@ from tealight.robot import (move,
 
 # Add your code here def line(dir):
 def turner(dir):
-  dir = dir*-1
   turn(dir)
   move()
   turn(dir)
@@ -24,7 +23,7 @@ def go(dir):
   if dir ==-1:
     while right_side == 'fruit':
       move()
-      
+  dir =dir*-1    
   turner(dir)  
     
 
