@@ -15,11 +15,9 @@ def turner(dir):
 def go(dir):
   while touch() == 'fruit':
     move()
-  
   if dir ==1:
     while left_side() == 'fruit':
       move()
-
   if dir ==-1:
     while right_side == 'fruit':
       move()
