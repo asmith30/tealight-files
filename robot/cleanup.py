@@ -19,8 +19,7 @@ def go(dir):
     while left_side() == 'fruit':
       move()
   if dir == -1:
-    print 'yay'
-    while right_side == 'fruit':
+    while right_side() == 'fruit':
       move()
   dir =dir*-1    
   turner(dir)  
