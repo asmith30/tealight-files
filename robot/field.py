@@ -45,6 +45,7 @@ for i in range(0,500):
     move()
   if look() == 'fruit':
     move()
+    bomb()
 '''
   if smell() ==1:
     turn(1)
