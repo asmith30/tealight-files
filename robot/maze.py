@@ -12,7 +12,8 @@ import random
 for i in range(1,1500):
   a = touch()
   l = left_side()
-  r = right_side()  
+  r = right_side()
+  print a+r+l  
   if ((a == 'None') and (r == 'None') and (l == 'None')) :
     print 'three way'
     turn(random.randint(-1,1))
