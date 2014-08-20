@@ -15,7 +15,7 @@ for i in range(1,1500):
   r = right_side()  
  
  
-  if (a == 'None)'& (r == 'None') &(l == 'None') :
+  if ((a == 'None)'& (r == 'None') &(l == 'None')) :
     print 'three way'
     turn(random.randint(-1,1))
     move()
