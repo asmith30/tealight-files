@@ -9,7 +9,7 @@ import random
 
 # Add your code here:
 
-for i in range(0,30):
+for i in range(0,300):
   a = touch()
   l = left_side()
   r = right_side()
