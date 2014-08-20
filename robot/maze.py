@@ -23,6 +23,7 @@ for i in range(1,1500):
       turn (random.randint(-1,0))
       move()
     else:
+      print 'ahead only'
       move()
   elif right_side() =='None':
     if left_side() =='None':
