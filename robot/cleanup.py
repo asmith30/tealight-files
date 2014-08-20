@@ -13,6 +13,7 @@ def turner(dir):
   turn(dir)
 
 def go(dir):
+  while touch() != 'fruit':
   move()
   while touch() == 'fruit':
     move()
@@ -28,7 +29,7 @@ def go(dir):
 
 
 dir = 1
-while 1==1:
+for i in range(0,500):
   go(dir)
   dir = dir*-1
   print dir
