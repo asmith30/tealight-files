@@ -19,7 +19,7 @@ for i in range(1,1500):
     print 'three way'
     turn(random.randint(-1,1))
     move()
-  if a=='None' & r == 'None' & l == 'wall' :
+  if a=='None' and r == 'None' and l == 'wall' :
     print 'ahead and right'
     turn(random.randint(0,1))
     move()
