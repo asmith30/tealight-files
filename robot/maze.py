@@ -11,4 +11,5 @@ from tealight.robot import (move,
 for i in range(1,8):
   print 'smell is '  
   print smell()
+  move()
   
