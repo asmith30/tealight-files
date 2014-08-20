@@ -13,7 +13,7 @@ for i in range(1,1500):
   a = touch()
   l = left_side()
   r = right_side()  
-  print a + " " + l + " " +r
+ 
  
   if a == 'None'& r == 'None' & l == 'None' :
     print 'three way'
