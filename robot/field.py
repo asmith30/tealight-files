@@ -13,7 +13,7 @@ if smell is 1 then try touch, left right and move there
 if smell is 2 do a spiral search until found, then retest
 
 '''
-def bomb()
+def bomb():
   if touch() == 'fruit':
     move()
   elif left_side() == 'fruit':
