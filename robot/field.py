@@ -19,8 +19,7 @@ def bomb():
   elif left_side() == 'fruit':
     turn(-1)
     move()
-  elif:  
-    right_side() == 'fruit':
+  elif right_side() == 'fruit':
     turn(1)
     move()
 
