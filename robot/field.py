@@ -37,13 +37,14 @@ def spiral():
     turn(-1)
     bomb()
     
-for i in range(0,65):
+for i in range(0,500):
   print 'look is ' + look()
   if look() == 'wall':
     turn(-1)
     move()
   if look() == 'fruit':
     move()
+'''
   if smell() ==1:
     turn(1)
     move()
@@ -52,4 +53,6 @@ for i in range(0,65):
     spiral()
   move ()
   bomb()
+  
+'''
 
