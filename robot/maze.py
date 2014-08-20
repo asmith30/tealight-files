@@ -38,6 +38,7 @@ for i in range(1,1500):
       turn(1)
       move()
   else:
+    print'left only'
     turn(-1)
     move()
     
