@@ -6,4 +6,8 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-# Add your code here
+# Add your code here:
+
+for i in range(1,6):
+  print 'smell is ' + smell()
+  
