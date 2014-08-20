@@ -13,8 +13,8 @@ def turner(dir):
   turn(dir)
 
 def go(dir):
-  while touch() <> 'fruit':
-  move()
+  while touch() != 'fruit':
+    move()
   while touch() == 'fruit':
     move()
   if dir == 1:
