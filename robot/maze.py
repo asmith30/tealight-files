@@ -35,6 +35,5 @@ for i in range(1,1500):
     move()
     
        
-    move()
-  elif 
+
   
