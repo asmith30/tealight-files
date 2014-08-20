@@ -19,10 +19,10 @@ def bomb():
   elif left_side() == 'fruit':
     turn(-1)
     move()
-    else:  
+  elif:  
     right_side() == 'fruit':
-      turn(1)
-      move()
+    turn(1)
+    move()
 
 '''
 try a spiral pattern
