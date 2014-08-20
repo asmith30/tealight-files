@@ -37,7 +37,7 @@ def spiral():
     turn(-1)
     bomb()
     
-for i in range(0,5):
+for i in range(0,65):
   if smell() ==1:
     turn(1)
     move()
