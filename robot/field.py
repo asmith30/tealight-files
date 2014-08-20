@@ -40,7 +40,7 @@ def spiral():
 for i in range(0,500):
   print 'look is ' + look()
   if look() == 'wall':
-    turn(-1)
+    turn(random.randint(1,3))
     move()
   if look() == 'fruit':
     move()
