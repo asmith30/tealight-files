@@ -39,7 +39,6 @@ def spiral():
     
 for i in range(0,5):
   print smell()
-  
   move ()
   bomb()
 
