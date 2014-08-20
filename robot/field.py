@@ -38,7 +38,12 @@ def spiral():
     bomb()
     
 for i in range(0,5):
-  print smell()
+  if smell() ==1:
+    turn(1)
+    move()
+    bomb()
+  if smell()==2:
+    spiral()
   move ()
   bomb()
 
