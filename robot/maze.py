@@ -11,6 +11,8 @@ import random
 
 for i in range(1,1500):
   print touch()
+  print left_side()
+  print right_side()
   if touch() == 'None':
     if right_side() == 'None':
       if left_side() == 'None':
