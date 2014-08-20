@@ -9,5 +9,6 @@ from tealight.robot import (move,
 # Add your code here:
 
 for i in range(1,6):
-  print 'smell is ' & smell()
+  print 'smell is '  
+  print smell()
   
