@@ -13,7 +13,9 @@ for i in range(1,15000):
   a = touch()
   l = left_side()
   r = right_side()
+  '''
   print str(a) + ' ' + str(r) +' ' + str(l) 
+  '''
   if ((str(a) == 'None') and (str(r) == 'None') and (str(l)== 'None')) :
     print 'three way'
     turn(random.randint(-1,1))
