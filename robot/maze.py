@@ -14,34 +14,34 @@ for i in range(1,1500):
   l = left_side()
   r = right_side()
   print str(a) + ' ' + str(r) +' ' + str(l) 
-  if ((a == 'None') and (r == 'None') and (l == 'None')) :
+  if ((str(a) == 'None') and (str(r) == 'None') and (str(l)== 'None')) :
     print 'three way'
     turn(random.randint(-1,1))
     move()
-  if a=='None' and r == 'None' and l == 'wall' :
+  if str(a)=='None' and str(r) == 'None' and str(l) == 'wall' :
     print 'ahead and right'
     turn(random.randint(0,1))
     move()
-  if a== 'none' and r == 'wall' and l ==  'None':
+  if str(a)== 'none' and str(r) == 'wall' and str(l) ==  'None':
     print 'ahead and left'
     turn (random.randint(-1,0))
     move()
-  if a == 'None' and r =='wall' and l ==  'wall':
+  if str(a) == 'None' and str(r) =='wall' and str(l) ==  'wall':
     print 'ahead only'
     move()
-  if a == 'wall' and r == 'None' and l == 'None' :
+  if str(a) == 'wall' and str(r) == 'None' and str(l) == 'None' :
     print 'left and right only'
     turn (random.randint(0,1)*2-1)
     move()
-  if a == 'wall' and r == 'None' and l == 'wall' :
+  if str(a) == 'wall' and str(r) == 'None' and str(l) == 'wall' :
     print 'right only'
     turn(1)
     move()
-  if a == 'wall' and r == 'wall' and l == 'None' :
+  if str(a) == 'wall' and str(r) == 'wall' and str(l) == 'None' :
     print'left only'
     turn(-1)
     move()
-  if a == 'wall' and r == 'wall' and l == 'wall' :
+  if str(a) == 'wall' and str(r) == 'wall' and str(l) == 'wall' :
     print 'dead end'
     turn(2)
     move()
