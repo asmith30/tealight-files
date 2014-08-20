@@ -7,6 +7,6 @@ from tealight.robot import (move,
                             right_side)
 
 # Add your code here
-for i in range(0,7):
+for i in range(0,9):
   print smell()
   move ()
