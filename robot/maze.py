@@ -24,7 +24,7 @@ for i in range(0,300):
     #print 'ahead and right'
     turn(random.randint(0,1))
     move()
-  if str(a)== 'none' and str(r) == 'wall' and str(l) ==  'None':
+  if str(a)== 'None' and str(r) == 'wall' and str(l) ==  'None':
     print 'ahead and left'
     turn (random.randint(-1,0))
     move()
