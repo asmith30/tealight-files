@@ -27,7 +27,7 @@ def bomb():
 try a spiral pattern
 '''
 def spiral():
-  for i in range (2,3):
+  for i in range (2,4):
     for j in range (1,i):
      move()
     turn (-1)
