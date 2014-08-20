@@ -10,6 +10,7 @@ import random
 # Add your code here:
 
 for i in range(1,1500):
+  print touch()
   if touch() == 'None':
     if right_side() == 'None':
       if left_side() == 'None':
