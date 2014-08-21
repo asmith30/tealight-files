@@ -16,6 +16,7 @@ def scan():
     return 0
   else:
     return 1
+  
 for i in range (0,400):
   found = scan()
   while found == 0:
