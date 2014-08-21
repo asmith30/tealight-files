@@ -33,9 +33,13 @@ def trythisway():
      return(0)
   
 def find():
+  i=0
   while touch()!='fruit' and left_side()!='fruit' and right_side()!='fruit':
    if look()=='fruit':
+      i=i+1
+      print i
       move()
+      
    else:
       turn(-1)
   move()
@@ -57,4 +61,4 @@ for i in range(0,400):
   r=str(right_side())
   print look()
   print touch()
-  move()
+  
