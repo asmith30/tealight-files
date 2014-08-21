@@ -20,7 +20,7 @@ def scan():
 for i in range (0,400):
   found = scan()
   while found == 0:
-    turn(random.randint(-1,1)
+    turn(random.randint(-1,1))
     move()
     found = scan()
   while str(touch())=='None':
