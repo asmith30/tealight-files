@@ -54,4 +54,5 @@ for i in range (1,500):
       move()
       turn(1)
     a=str(touch())
+    print a
     
