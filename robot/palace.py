@@ -56,6 +56,5 @@ for i in range(0,400):
   l=str(left_side())
   r=str(right_side())
   print look()
-  print smell()
   print touch()
   move()
