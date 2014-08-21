@@ -17,7 +17,7 @@ for i in range (1,400):
   lastr='fruit'
   
   if a=='fruit':
-    print 'yay'
+    print i
   elif l=='fruit':
     turn(-1)
   elif r=='fruit':
