@@ -8,7 +8,7 @@ from tealight.robot import (move,
 
 # Add your code here
 turn(1)
-for i in range (1,400):
+for i in range (1,100):
   a = str(touch())
   l=str(left_side())
   r=str(right_side())
