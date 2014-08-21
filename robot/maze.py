@@ -15,11 +15,11 @@ for i in range(0,2000):
   r = str(right_side())
   # go strategy
   if r is 'None':
-    turn(-1)
+    turn(1)
   elif a is 'None':
     turn (0)
   elif l is 'None':
-    turn(1)
+    turn(-1)
   else:
     turn(2)
   move()
