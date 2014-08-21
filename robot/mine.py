@@ -17,6 +17,8 @@ for i in range (1,500):
   lastl='fruit'
   lastr='fruit'
   print i
+  if a=='wall':
+    uturn()
   if a=='fruit':
     lasta='fruit'
   elif l=='fruit':
@@ -40,3 +42,14 @@ for i in range (1,500):
         for i in range(0,5):
           move()
   move()
+  
+  def uturn:
+    if l=='fruit':
+      turn(-1)
+      move()
+      turn(-1)
+    else:
+      turn(1)
+      move()
+      turn(1)
+    
