@@ -23,5 +23,11 @@ for i in range (1,400):
   elif r=='fruit':
     turn(1)
   else:
-    move()
+    turn(1)
+    if str(look())=='fruit'
+      move()
+    else:
+      turn(2)
+      if str(look())=='fruit'
+      move()
   move()
