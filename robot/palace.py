@@ -19,7 +19,8 @@ def dr():
   turn(-1)
   move()
 def ul():
-
+  print 'default'
+  
 def trythisway():
   move()
   if left_side()=='fruit':
