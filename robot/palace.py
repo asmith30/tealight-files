@@ -56,9 +56,9 @@ def traverse():
   else:
     e = trythatway()
     if e<>0:
-      turn(e*-1)
-      move()
       turn(e)
+      move()
+      turn(e*-1)
     else:
       turn(1)
       traverse()
