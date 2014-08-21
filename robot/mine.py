@@ -43,7 +43,7 @@ for i in range (1,500):
           move()
   move()
   
-  def uturn:
+  def uturn():
     if l=='fruit':
       turn(-1)
       move()
