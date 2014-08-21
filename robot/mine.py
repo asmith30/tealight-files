@@ -7,8 +7,6 @@ from tealight.robot import (move,
                             right_side)
 
 # Add your code here
-print look()
-move()
-move()
-move()
-move()
+for i in range (1,6):
+  print look()
+  move()
