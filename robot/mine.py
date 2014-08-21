@@ -9,7 +9,7 @@ from tealight.robot import (move,
 # Add your code here
 flip =0
 turn(1)
-for i in range (1,100):
+for i in range (1,500):
   a = str(touch())
   l=str(left_side())
   r=str(right_side())
