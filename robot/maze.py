@@ -13,6 +13,7 @@ for i in range(0,2000):
   a = str(touch())
   l = str(left_side())
   r = str(right_side())
+'''
   # go right strategy
   if r is 'None':
     turn(1)
@@ -25,10 +26,10 @@ for i in range(0,2000):
   move()
   
   
-  '''
-  print str(a) + ' ' + str(r) +' ' + str(l) 
-  
-  if ((str(a) == 'None') and (str(r) == 'None') and (str(l)== 'None')) :
+
+#  print str(a) + ' ' + str(r) +' ' + str(l) 
+'''  
+  if (a == 'None') and (r == 'None') and (l== 'None')) :
     #print 'three way'
     turn(random.randint(-1,1))
     move()
