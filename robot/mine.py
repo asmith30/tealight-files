@@ -24,10 +24,10 @@ for i in range (1,400):
     turn(1)
   else:
     turn(1)
-    if str(look())=='fruit'
+    if str(look())=='fruit':
       move()
     else:
       turn(2)
-      if str(look())=='fruit'
+      if str(look())=='fruit':
       move()
   move()
