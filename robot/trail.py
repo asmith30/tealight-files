@@ -18,7 +18,7 @@ def tri():
     return 1
   else:
     print 'oh no im stuck'
-    return(0)
+    return(2)
 for i in range (0,400):
   a =str(touch())
   l=str(left_side())
