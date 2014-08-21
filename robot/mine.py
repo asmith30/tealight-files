@@ -32,6 +32,6 @@ for i in range (1,400):
         move()
       else:
         turn(1)
-        for i in range(0,9):
+        for i in range(0,5):
           move()
   move()
