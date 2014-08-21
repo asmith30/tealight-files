@@ -7,6 +7,7 @@ from tealight.robot import (move,
                             right_side)
 
 # Add your code here
+flip =0
 turn(1)
 for i in range (1,100):
   a = str(touch())
@@ -19,7 +20,11 @@ for i in range (1,100):
   if a=='fruit':
     lasta='fruit'
   elif l=='fruit':
-    turn(-1)
+    if r=='fruit':
+      turn(flip*2-1)
+      flip=(flip + 1)%2
+    else:
+      turn(-1)
   elif r=='fruit':
     turn(1)
   else:
