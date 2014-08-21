@@ -10,7 +10,7 @@ from tealight.robot import (move,
 def scan():
   i = 0
   while look()=='wall' and i<4:
-    turn()
+    turn(1)
     i=i+1
   if look()=='wall':
     return 0
