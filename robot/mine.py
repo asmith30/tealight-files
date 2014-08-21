@@ -47,12 +47,12 @@ for i in range (1,500):
   
   def uturn():
     print 'u-turn'
-    print str(flip)
+    print flip
     if l=='fruit':
       if r=='fruit':
-      turn(flip*2-1)
-      move()
-      turn(flip*2-1)
+        turn(flip*2-1)
+        move()
+        turn(flip*2-1)
       else:
        turn(-1)
        move()
