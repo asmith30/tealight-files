@@ -19,6 +19,7 @@ for i in range (1,500):
   print i
   if a=='wall':
     uturn()
+    flip=(flip + 1)%2
     a=str(touch())
   if a=='fruit':
     lasta='fruit'
@@ -48,9 +49,14 @@ for i in range (1,500):
     print 'u-turn'
     print flip
     if l=='fruit':
-      turn(-1)
+      if r=='fruit'
+      turn(flip*2-1)
       move()
-      turn(-1)
+      turn(flip*2-1)
+      else:
+       turn(-1)
+       move()
+       turn(1)
     else:
       turn(1)
       move()
