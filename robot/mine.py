@@ -31,5 +31,7 @@ for i in range (1,400):
       if str(look())=='fruit':
         move()
       else:
-        turn(-1)
+        turn(1)
+        for i in range(0,9):
+          move()
   move()
