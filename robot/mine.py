@@ -7,6 +7,7 @@ from tealight.robot import (move,
                             right_side)
 
 # Add your code here
+turn(1)
 for i in range (1,400):
   a = str(touch())
   l=str(left_side())
@@ -14,7 +15,7 @@ for i in range (1,400):
   lasta ='fruit'
   lastl='fruit'
   lastr='fruit'
-
+  
   if a=='fruit':
     print 'yay'
   elif l=='fruit':
