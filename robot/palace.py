@@ -32,7 +32,7 @@ def trythisway():
      move()
      return(0)
 def trythatway():
-  
+  turn(-1)
   
 def find():
   i=0
@@ -53,6 +53,7 @@ def traverse():
     move()
     turn(d*-1)
   else:
+    turn(-1)
     traverse()
     
   
