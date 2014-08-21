@@ -61,4 +61,5 @@ for i in range(0,400):
   r=str(right_side())
   print look()
   print touch()
+  traverse()
   
