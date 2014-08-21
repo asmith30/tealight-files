@@ -5,7 +5,7 @@ from tealight.robot import (move,
                             smell, 
                             left_side, 
                             right_side)
-
+import random
 #
 def scan():
   i = 0
@@ -20,6 +20,7 @@ def scan():
 for i in range (0,400):
   found = scan()
   while found == 0:
+    turn(random.randint(-1,1)
     move()
     found = scan()
   while str(touch())=='None':
