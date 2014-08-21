@@ -56,7 +56,7 @@ for i in range (1,500):
       else:
        turn(-1)
        move()
-       turn(1)
+       turn(-1)
     else:
       turn(1)
       move()
