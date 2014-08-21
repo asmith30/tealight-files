@@ -10,12 +10,24 @@ import random
 # Add your code here:
 
 for i in range(0,2000):
-  a = touch()
-  l = left_side()
-  r = right_side()
+  a = str(touch())
+  l = str(left_side())
+  r = str(right_side())
+  # go left strategy
+  if l is 'None':
+    turn(-1)
+  elif a is 'None':
+    turn (0)
+  elif r is 'None':
+    turn(1)
+  else:
+    turn(2)
+  move()
+  
+  
   '''
   print str(a) + ' ' + str(r) +' ' + str(l) 
-  '''
+  
   if ((str(a) == 'None') and (str(r) == 'None') and (str(l)== 'None')) :
     #print 'three way'
     turn(random.randint(-1,1))
@@ -47,6 +59,6 @@ for i in range(0,2000):
     #print 'dead end'
     turn(2)
     move()
-       
+'''      
 
   
