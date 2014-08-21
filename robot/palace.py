@@ -33,7 +33,8 @@ def trythisway():
      return(0)
 def trythatway():
   turn(-1)
-  
+  return trythisway()
+
 def find():
   i=0
   while touch()!='fruit' and left_side()!='fruit' and right_side()!='fruit':
@@ -53,8 +54,12 @@ def traverse():
     move()
     turn(d*-1)
   else:
-    turn(-1)
-    traverse()
+    e = trythatway()
+    if e<>0:
+      turn(e)
+      move()
+      turn(e*-1)
+  traverse()
     
   
 find()  
