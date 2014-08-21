@@ -16,12 +16,12 @@ def scan():
     return 0
   else:
     return 1
-for i in range (0,400)
+for i in range (0,400):
   found = scan()
   while found == 0:
     move()
     found = scan()
   while touch()=='None':
     move()
-  if touch()=='fruit'
-  move()
+  if touch()=='fruit':
+    move()
