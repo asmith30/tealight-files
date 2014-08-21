@@ -22,7 +22,7 @@ for i in range (0,400):
   while found == 0:
     move()
     found = scan()
-  while touch()=='None':
+  while str(touch())=='None':
     move()
-  if touch()=='fruit':
+  if str(touch())=='fruit':
     move()
