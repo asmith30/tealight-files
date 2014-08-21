@@ -47,7 +47,7 @@ for i in range (1,500):
   
   def uturn():
     print 'u-turn'
-    print flip
+    print str(flip)
     if l=='fruit':
       if r=='fruit':
       turn(flip*2-1)
