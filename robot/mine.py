@@ -15,9 +15,9 @@ for i in range (1,100):
   lasta ='fruit'
   lastl='fruit'
   lastr='fruit'
-  
+  print i
   if a=='fruit':
-    print i
+    lasta='fruit'
   elif l=='fruit':
     turn(-1)
   elif r=='fruit':
