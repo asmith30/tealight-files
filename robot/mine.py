@@ -7,7 +7,7 @@ from tealight.robot import (move,
                             right_side)
 
 # Add your code here
-flip =0
+flip =int(0)
 turn(1)
 for i in range (1,500):
   a = str(touch())
