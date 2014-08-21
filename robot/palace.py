@@ -60,7 +60,7 @@ def traverse():
       move()
       turn(e*-1)
     else:
-      turn(-1)
+      turn(-2)
       traverse()
     
   
