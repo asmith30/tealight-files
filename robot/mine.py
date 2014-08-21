@@ -49,7 +49,7 @@ for i in range (1,500):
     print 'u-turn'
     print flip
     if l=='fruit':
-      if r=='fruit'
+      if r=='fruit':
       turn(flip*2-1)
       move()
       turn(flip*2-1)
