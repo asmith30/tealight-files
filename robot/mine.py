@@ -29,5 +29,5 @@ for i in range (1,400):
     else:
       turn(2)
       if str(look())=='fruit':
-      move()
+        move()
   move()
