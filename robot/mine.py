@@ -19,6 +19,7 @@ for i in range (1,500):
   print i
   if a=='wall':
     uturn()
+    a=str(touch())
   if a=='fruit':
     lasta='fruit'
   elif l=='fruit':
@@ -53,6 +54,4 @@ for i in range (1,500):
       turn(1)
       move()
       turn(1)
-    a=str(touch())
-    print a
-    
+   
