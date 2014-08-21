@@ -59,7 +59,9 @@ def traverse():
       turn(e)
       move()
       turn(e*-1)
-  traverse()
+    else:
+      turn(-1)
+      traverse()
     
   
 find()  
