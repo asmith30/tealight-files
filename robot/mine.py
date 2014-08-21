@@ -44,6 +44,7 @@ for i in range (1,500):
   move()
   
   def uturn():
+    print 'u-turn'
     if l=='fruit':
       turn(-1)
       move()
