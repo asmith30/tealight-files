@@ -22,5 +22,5 @@ for i in range (1,400):
   elif r=='fruit':
     turn(1)
   else:
-    turn(2)
+    move()
   move()
