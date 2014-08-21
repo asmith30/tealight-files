@@ -19,7 +19,7 @@ def tri():
   else:
     print 'oh no im stuck'
     return(0)
-for i in range (0,400)
+for i in range (0,400):
   a =str(touch())
   l=str(left_side())
   r=str(right_side())
