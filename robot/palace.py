@@ -31,6 +31,8 @@ def trythisway():
      turn(2)
      move()
      return(0)
+def trythatway():
+  
   
 def find():
   i=0
