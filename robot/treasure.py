@@ -24,6 +24,7 @@ for i in range (0,400):
   while found == 0:
     turn(random.randint(-1,1))
     move()
+    move()
     found = scan()
   while str(touch())=='None':
     move()
