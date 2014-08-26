@@ -22,10 +22,11 @@ def scan():
 for i in range (0,400):
   found = scan()
   while found == 0:
-    turn(random.randint(-1,2))
-    move()
-    move()
-    found = scan()
+    turn(random.randint(-1,1))
+    if touch()!='wall':
+      move()
+      move()
+      found = scan()
   while str(touch())=='None':
     move()
   if str(touch())=='fruit':
