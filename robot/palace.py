@@ -26,14 +26,14 @@ def trythisway():
   if left_side()=='fruit':
     return -1
   elif right_side()=='fruit':
-   return 1
+    return 1
   else:
      turn(2)
      move()
      return(0)
 def trythatway():
-  turn(random(-1,1)
-  return trythisway()
+  turn(random(-1,1))
+  return trythisway()   
 
 def find():
   i=0
