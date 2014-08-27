@@ -27,6 +27,9 @@ def trythisway():
     return -1
   elif right_side()=='fruit':
     return 1
+  elif str(look())=='fruit':
+    move()
+    return(2)
   else:
      turn(2)
      move()
