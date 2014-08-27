@@ -5,7 +5,7 @@ from tealight.robot import (move,
                             smell, 
                             left_side, 
                             right_side)
-
+import random
 # Add your code here
 def ur():
   turn(-1)
@@ -32,7 +32,7 @@ def trythisway():
      move()
      return(0)
 def trythatway():
-  turn(-1)
+  turn(random(-1,1)
   return trythisway()
 
 def find():
