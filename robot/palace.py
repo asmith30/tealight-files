@@ -32,7 +32,7 @@ def trythisway():
      move()
      return(0)
 def trythatway():
-  turn(random(-1,1))
+  turn(randomint(-1,1))
   return trythisway()   
 
 def find():
