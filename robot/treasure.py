@@ -27,7 +27,9 @@ for i in range (0,400):
       move()
       move()
       found = scan()
-  while str(touch())=='None':
+  while str(touch())=='None' and str(touch())!='wall':
     move()
   if str(touch())=='fruit':
     move()
+  elif str(touch())=='wall':
+    turn(1)  
