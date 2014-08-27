@@ -58,7 +58,9 @@ def traverse():
     if e<>0:
       turn(e)
       move()
-      turn(e)
+      '''
+      turn(e*-1)
+      '''
     else:
       turn(1)
       traverse()
