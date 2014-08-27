@@ -62,8 +62,9 @@ def traverse():
       turn(e*-1)
       '''
     else:
-      turn(1)
-      traverse()
+      if str(look())=='fruit':
+        move()
+     
     
   
 find()  
