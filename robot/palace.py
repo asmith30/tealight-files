@@ -58,7 +58,7 @@ def traverse():
     if e<>0:
       turn(e)
       move()
-      turn(e*-1)
+      turn(e)
     else:
       turn(1)
       traverse()
